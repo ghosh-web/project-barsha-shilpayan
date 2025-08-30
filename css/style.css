@@ -262,13 +262,6 @@ li {
 }
 
 
-/* categories end */
-
-/* best seller start */
-/* .best-seller {
-  padding: 40px 0;
-} */
-
 .product-card {
   background: #fff;
   border: 1px solid #ddd;
@@ -278,8 +271,8 @@ li {
 }
 
 .product-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transform: translateY(-3px);
+   box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
 }
 
 .product-card img {
@@ -529,7 +522,7 @@ li {
 }
 
 .img-product:hover {
-  transform: scale(1.05);
+  transform: scale(1.3);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 

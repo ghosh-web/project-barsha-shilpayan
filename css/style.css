@@ -126,20 +126,42 @@ li {
 /* navbar end */
 
 /* hero section */
-
-.hero .carousel-item img {
+/* 
+ .hero .carousel-item img {
   height: 680px;
   width: 100%;
   object-fit: cover;
   background-position: center;
-}
-
+} */
+ .carousel-item video {
+      width: 100%;
+      height: 650px;
+      object-fit: cover;
+    }
 .carousel-caption {
   text-align: center;
   padding-bottom: 80px;
   padding-top: 80px;
 }
+.carousel-caption {
+  bottom: 25%;
+  left: 8%;
+  text-align: left;
+}
+.carousel-caption h1 {
+  font-size: 36px;
+  color: #780a02;
+  padding-bottom: 10px;
+  
+}
 
+.carousel-caption a{
+  font-weight: 500;
+  color: #ddd;
+  background-color: #711a04;
+}
+
+/* 
 .carousel-caption h1 {
   font-size: 50px;
   color: var(--purple);
@@ -154,7 +176,7 @@ li {
   font-weight: 400;
   color: rgb(250, 249, 251);
   z-index: 1;
-}
+} */
 
 .btn-hero {
   background-color: var(--magenta);
@@ -201,9 +223,10 @@ li {
   .btn-hero {
     text-align: center;
     margin: 0 50px;
-  }
-}
+  } 
+ } 
 
+   
 /* hero section end */
 
 /* categories start */
@@ -357,7 +380,7 @@ li {
 /* best seller end */
 
 /* youtube start */
-.youtube h3 {
+/* .youtube h3 {
   text-align: center;
   font-size: 50px;
   margin-bottom: 40px;
@@ -368,8 +391,26 @@ li {
 
 .youtube {
   padding-top: 100px;
+} */
+ 
+.youtube h3 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  color: var(--purple);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.youtube {
+  padding: 100px 0;
+}
+
+.youtube-video iframe,
+.mp4-video video {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
 /* youtube end */
 
 /*our product start*/

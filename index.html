@@ -114,10 +114,11 @@
 
   <!-- hero section -->
   <section class="hero">
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="container-fluid">
+     <!-- <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./images/inesh-thamotharampillai-6XZWrSBo5o4-unsplash.jpg" class="d-block w-100" alt="...">
+        <video src="./assets/video/DeWatermark.ai_1756710848871.jpeg"  width="1600" height="700" controls></video>
           <div class="carousel-caption">
             <h1>Handmade With Heritage</h1>
             <p>Beautifully crafted designs for every occasion</p>
@@ -125,7 +126,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/sabesh-photography-ltd-k_CaC-xtoBY-unsplash.jpg" class="d-block w-100" alt="...">
+     <video src="./assets/video/ezgif.com-avif-to-gif-converter (1).gif"  width="1600" height="700" controls></video>
           <div class="carousel-caption">
             <h1>Elegant & Unique</h1>
             <p>Discover timeless pieces made by artisans</p>
@@ -133,8 +134,10 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/urvi-kotasthane-gl-KSnRyhE0-unsplash.jpg" class="d-block w-100 center" alt="...">
+        <video src="./assets/video/ezgif.com-gif-to-mp4-converter.mp4" width="1600" height="700" controls></video> 
           <div class="carousel-caption ">
+           
+
             <h1 class="text-light">Celebrate Tradition</h1>
             <p>Adorn yourself with handcrafted jewelry</p>
             <a href="#" class="btn btn-hero">Shop Now</a>
@@ -152,7 +155,64 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+    </div>  -->
+<div id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- First video -->
+    <div class="carousel-item active">
+      <video class="d-block w-100" autoplay muted loop>
+        <source src="./assets/video/ezgif.com-gif-to-mp4-converter.mp4" type="video/mp4">
+        Your browser does not support video tag.
+      </video>
+      <div class="carousel-caption d-none d-md-block text-start">
+        <h1 class="fw-bold ms-2">Silk Sarees: Timeless Beauty</h1>
+        <a href="#contact" class="btn btn-warning px-4 py-2 ">Shop Now</a>
+      </div>
     </div>
+
+    <!-- Second video -->
+    <div class="carousel-item">
+      <video class="d-block w-100" autoplay muted loop>
+        <source src="./assets/video/ezgif.com-video-speed (1).mp4" type="video/mp4">
+        Your browser does not support video tag.
+      </video>
+      <div class="carousel-caption d-none d-md-block text-start">
+        <h1 class=" fw-bold ms-2 text-light">Sarees for Bridesmaids: <br> Stylish & Sophisticated</h1>
+      
+        <a href="#contact" class="btn btn-warning px-4 py-2">Shop Now</a>
+      </div>
+    </div>
+
+    <!-- Third video -->
+    <div class="carousel-item">
+      <video class="d-block w-100" autoplay muted loop>
+        <source src="./assets/video/ezgif.com-video-speed.mp4" type="video/mp4">
+        Your browser does not support video tag.
+      </video>
+      <div class="carousel-caption d-none d-md-block text-start ">
+        <h1 class="fw-bold ms-2 text-light">Sarees that Blend <br>Comfort with Glamour</h1>
+
+        <a href="#contact" class="btn btn-warning px-4 py-2">Shop Now</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+
+ 
+  </div>
+
+    
   </section>
 
   <!-- categories start -->
@@ -350,7 +410,7 @@
     </div>
   </section>
   <!-- youtube section start-->
-  <section class="youtube ">
+  <!-- <section class="youtube ">
     <div class="container-fluid">
       <h3>Our youtube Video</h3>
       <div class="youtube-vedio">
@@ -360,7 +420,34 @@
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
-  </section>
+  </section> -->
+  <section class="youtube">
+  <div class="container-fluid">
+    <h3></h3>
+    <div class="row align-items-center">
+      <!-- YouTube Video -->
+      <div class="col-lg-6 col-md-12 mb-4">
+        <div class="youtube-video">
+          <iframe width="100%" height="350" src="https://www.youtube.com/embed/Lvvy93L5abg?si=tF4UjWgGOjiVwbOA"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <!-- MP4 Video -->
+      <div class="col-lg-6 col-md-12 mb-4">
+        <div class="mp4-video">
+          <video width="100%" height="350" controls>
+            <source src="./assets/video/ezgif.com-video-speed (2).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   <!-- our product start -->
   <section class="product section_padding">
     <div class="container-fluid text-center">
@@ -474,9 +561,9 @@
       </div>
 
       <!-- Pagination and Navigation -->
-      <div class="swiper-pagination"></div>
+      <!-- <div class="swiper-pagination"></div> -->
       <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+      <div class="swiper-button-next"></div> 
     </div>
   </div>
 </section>
@@ -489,9 +576,9 @@
 
       <div class="compassion-text text-center">
         <h6>If your compassion does not include yourself, it is incomplete.</h6>
-        <p class="compassion-sign">R. Ghosh</p>
-        <p class="compassion-name">Rick Ghosh</p>
-        <p class="founder">Founder, Barsha Shilpayan</p>
+        <p class="compassion-sign">A.Mondal</p>
+        <p class="compassion-name">Anisha Mondal(Barsha)</p>
+        <p class="founder">Founder, Barsha Silpayan</p>
       </div>
     </div>
   </section>
@@ -523,7 +610,7 @@
           <a href="#" class="footer-logo"><img src="./images/barsha-silpayan logo.png" alt="barsha-silpayan Logo">
           </a>
           <p class="footer-tagline">
-            Barsha Shilpayan celebrates the timeless grace of tradition with finely crafted sarees that blend heritage
+            Barsha Silpayan celebrates the timeless grace of tradition with finely crafted sarees that blend heritage
             and modernity. Each piece is thoughtfully designed and woven with precision, reflecting exquisite
             craftsmanship and rich cultural artistry. Our mission is to adorn every occasion with elegance, ensuring
             that every drape tells a story of beauty and tradition.
@@ -557,11 +644,12 @@
           <h4 class="footer-heading ">Contact Info</h4>
           <p class="address">
           <ul class="px-2">
-            <li>Address:- Bolpur Santiniketan Main Road,Opposite of ICICI Bank</li>
-            <li>Email:- <a href="#">barshasilpayan@gmail.com</a></li>
-            <li>Mobile:-<a href="#">8436185258</a></li>
-            <li>whatsapp:- <a href="#">9883925106</a></p>
+            <li>Address:- Santiniketan Road, Oppoosite Of Senco Gold</li>
+            <li>Email:- <a href="barshasilpayan@gmail.com">barshasilpayan@gmail.com</a></li>
+            <li>Mobile:-<a href="8436185258">8436185258</a></li>
+            <li>whatsapp:- <a href="9883925106">9883925106</a>
             </li>
+        </p>
             <!-- <ul class="footer-links">
             <li><a href="home">Home</a></li>
             <li><a href="aboutus">About Us</a></li>
@@ -611,7 +699,7 @@
     </div>
     <div class="footer-social-icons">
       <div class="social-icon-group">
-        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.facebook.com/share/1B7oTwrV8X/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
         <span class="icon-divider">•</span>
       </div>
       <div class="social-icon-group">
@@ -623,7 +711,7 @@
         <span class="icon-divider">•</span>
       </div>
       <div class="social-icon-group">
-        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/silpayanbarsha?igsh=NTl3OWp2cTdxcGhv" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
       </div>
     </div>
 
